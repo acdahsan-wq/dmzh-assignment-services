@@ -675,43 +675,4 @@ body{
 
 }
 
-/* ==========================
-   RESPONSIVE NAVBAR
-========================== */
 
-.menu-toggle{
-    display:none;
-    font-size:30px;
-    color:#fff;
-    cursor:pointer;
-}
-
-@media (max-width:768px){
-
-    .navbar{
-        position:relative;
-        padding:20px;
-    }
-
-    .menu-toggle{
-        display:block;
-    }
-
-    .menu{
-        display:none;
-        flex-direction:column;
-        position:absolute;
-        top:80px;
-        left:0;
-        width:100%;
-        background:#111;
-        padding:20px 0;
-        text-align:center;
-        gap:20px;
-    }
-
-    .menu.active{
-        display:flex;
-    }
-
-}
